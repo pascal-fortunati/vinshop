@@ -1,0 +1,15 @@
+[2025-10-16 11:45:50] [error] There is no active transaction
+[2025-10-16 11:46:00] [error] There is no active transaction
+[2025-10-16 11:47:26] [error] There is no active transaction
+[2025-10-16 11:49:29] [error] There is no active transaction
+[2025-10-16 11:50:20] [error] There is no active transaction
+[2025-10-16 12:02:24] [error] View products.search not found at C:\Users\Pascal\Documents\GitHub\site\core/../views/products/search.php
+[2025-10-16 12:27:55] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_mvc.wishlist' doesn't exist
+[2025-10-16 12:27:57] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_mvc.wishlist' doesn't exist
+[2025-10-16 12:27:59] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_mvc.wishlist' doesn't exist
+[2025-10-17 09:45:47] [error] Controller CouponController->toggle not found
+[2025-10-17 09:46:23] [error] Invalid callback format. Expected 'Controller@method', got 'CouponController->toggle'
+[2025-10-17 09:46:47] [error] Invalid callback format. Expected 'Controller@method', got 'CouponController->toggle'
+[2026-05-27 09:45:57] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_mvc.products' doesn't exist
+[2026-05-27 09:54:47] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vinshop.products' doesn't exist
+[2026-05-27 09:54:50] [error] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vinshop.products' doesn't exist
