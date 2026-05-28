@@ -10,7 +10,7 @@
 function url($path = '')
 {
     // Utiliser l'URL de base depuis la configuration
-    $config = require __DIR__ . '/../config/app.php';
+    $config = require __DIR__ . '/../config/App.php';
     $baseUrl = rtrim($config['url'], '/');
     return $baseUrl . '/' . ltrim($path, '/');
 }
@@ -20,7 +20,7 @@ function url($path = '')
  */
 function asset($path)
 {
-    $config = require __DIR__ . '/../config/app.php';
+    $config = require __DIR__ . '/../config/App.php';
     $baseUrl = rtrim($config['url'], '/');
     return $baseUrl . '/public/' . ltrim($path, '/');
 }
@@ -352,7 +352,7 @@ function config($key, $default = null)
     static $config = [];
 
     if (empty($config)) {
-        $configFile = __DIR__ . '/../config/app.php';
+        $configFile = __DIR__ . '/../config/App.php';
         if (file_exists($configFile)) {
             $config = require $configFile;
         }

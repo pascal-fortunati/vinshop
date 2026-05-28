@@ -19,7 +19,7 @@ class Auth
     {
         if (!self::check()) {
             $_SESSION['error'] = 'Vous devez être connecté pour accéder à cette page';
-            $config = require __DIR__ . '/../config/app.php';
+            $config = require __DIR__ . '/../config/App.php';
             $baseUrl = rtrim($config['url'], '/');
             header('Location: ' . $baseUrl . '/login');
             exit;
@@ -32,7 +32,7 @@ class Auth
         self::requireLogin();
         if (!self::isAdmin()) {
             $_SESSION['error'] = 'Accès refusé. Zone réservée aux administrateurs.';
-            $config = require __DIR__ . '/../config/app.php';
+            $config = require __DIR__ . '/../config/App.php';
             $baseUrl = rtrim($config['url'], '/');
             header('Location: ' . $baseUrl . '/');
             exit;
