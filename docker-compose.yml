@@ -4,13 +4,7 @@ services:
     container_name: vinshop-app
     depends_on:
       - db
-    environment:
-      APP_URL: http://localhost:8080
-      DB_HOST: db
-      DB_NAME: vinshop
-      DB_USER: vinshop
-      DB_PASSWORD: vinshop
-      DB_CHARSET: utf8mb4
+    emv_file: .env
     volumes:
       - ./:/var/www/html
 
