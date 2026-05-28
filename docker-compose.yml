@@ -4,7 +4,7 @@ services:
     container_name: vinshop-app
     depends_on:
       - db
-    emv_file: .env
+    env_file: .env
     volumes:
       - ./:/var/www/html
 
